@@ -6,10 +6,6 @@ import telebot
 import asyncio
 from pymongo import MongoClient 
 from pymongo.server_api import ServerApi
-url = 'mongodb+srv://amanda_molleda:Macbookair13!@cluster0.tmj4x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
-api_key = '7897127269:AAGxdCCm59RIsjMdGrxSZiVH27BoNl-S0T8'
-chat_id = '7649031477'
-bot_username = '@tg_solana_token_bot'
 
 
 client = MongoClient(os.getenv('url'), server_api=ServerApi("1"),connect=False)
