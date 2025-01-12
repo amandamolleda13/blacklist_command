@@ -1,5 +1,4 @@
-import os
 from my_shared import send_alert  
 
-send_alert('1', "hello")  
+send_alert('1', "oh hey")  
 
